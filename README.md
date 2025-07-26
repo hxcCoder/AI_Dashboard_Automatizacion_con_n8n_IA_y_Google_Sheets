@@ -67,7 +67,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 🎯 Casos de uso
 -
 
----
+
 - Atención al cliente con IA
 
 - Recepción de solicitudes o reclamos
