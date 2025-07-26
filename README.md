@@ -110,7 +110,7 @@ Deploy en servidores reales o Vercel
 - 🐙 GitHub
 
 ---
-Nota sobre CORS y desarrollo local
+Nota sobre CORS  y  desarrollo local
 
 ---
 Por defecto, n8n no permite peticiones desde orígenes distintos (como 127.0.0.1:5500).
