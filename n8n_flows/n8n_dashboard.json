@@ -1,0 +1,389 @@
+{
+  "name": "Dashboard",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "Receive data from forms",
+        "height": 224,
+        "width": 192,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -144,
+        -80
+      ],
+      "typeVersion": 1,
+      "id": "8e205ae4-ccb0-4630-b8b5-cb9545a77282",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "Edit/configure filter fields\n(optional).",
+        "height": 192,
+        "width": 192,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        128,
+        -48
+      ],
+      "typeVersion": 1,
+      "id": "30f1ed14-1ccf-4bb3-b8ca-dffed55e1f71",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "content": "Receive the request for data",
+        "height": 192,
+        "width": 208,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -160,
+        -304
+      ],
+      "typeVersion": 1,
+      "id": "896a574a-520c-4d37-bfd8-6a18f2825a3e",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "da8bba8d-f49c-4eb9-921c-d4342bccc002",
+              "leftValue": "",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        176,
+        16
+      ],
+      "id": "fc9d50ad-729e-4dc0-9c78-46bdf743e8e0",
+      "name": "Filter"
+    },
+    {
+      "parameters": {
+        "content": "Analyze the content to deliver it.",
+        "height": 224,
+        "width": 192,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        128,
+        -288
+      ],
+      "typeVersion": 1,
+      "id": "c17c8fc0-2002-41ce-84d0-2ee7f1e5d8cb",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "content": "Responds to the request in json, in this case for the dashboard.\n",
+        "height": 224,
+        "width": 272,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        384,
+        -336
+      ],
+      "typeVersion": 1,
+      "id": "830492da-8fbd-44bc-ae7d-80685bdae6d3",
+      "name": "Sticky Note4"
+    },
+    {
+      "parameters": {
+        "content": "Save the data in a Google sheets.",
+        "height": 240,
+        "width": 272,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        384,
+        -96
+      ],
+      "typeVersion": 1,
+      "id": "ec2ff86e-d100-40d9-b316-0ab944f77f59",
+      "name": "Sticky Note5"
+    },
+    {
+      "parameters": {
+        "content": "Various options can be added\n---\nLike filters, redirects, or profitability-oriented add-ons,\nsuch as AI Assistants or helpful options.\n\nMessages can be added via Telegram or Gmail.\n\nA functional backend can also be integrated and customized.\n",
+        "height": 288,
+        "color": 5
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        720,
+        -288
+      ],
+      "typeVersion": 1,
+      "id": "8c0e8f07-4e3f-4387-8a05-1238b35c3a9b",
+      "name": "Sticky Note6"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "dashboard-data-post",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -96,
+        -16
+      ],
+      "id": "b61fccf6-9037-4577-bbd7-8077bcadd7cd",
+      "name": "Incoming information",
+      "webhookId": "342b8e10-6bf1-4842-a972-d0329f88663e"
+    },
+    {
+      "parameters": {
+        "path": "dashboard-data-get",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "http://127.0.0.1:5500"
+        }
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -96,
+        -240
+      ],
+      "id": "4a823074-e6fd-48a9-a1fe-e6e59837173a",
+      "name": "Information delivered",
+      "webhookId": "ead853aa-ccfe-4bdf-8540-cf9e3878400c"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1YmYmOeedRysz-ObHtRjf8w1WrxqqtpbcEWnyaWfLfqE",
+          "mode": "list",
+          "cachedResultName": "dashboard",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1YmYmOeedRysz-ObHtRjf8w1WrxqqtpbcEWnyaWfLfqE/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Hoja 1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1YmYmOeedRysz-ObHtRjf8w1WrxqqtpbcEWnyaWfLfqE/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        176,
+        -208
+      ],
+      "id": "0dc2c8e9-c9c9-4102-941d-0c0903adf007",
+      "name": "Read the information",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "ZweRsgglefYs7hQL",
+          "name": "Google Sheets"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{$json}}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        480,
+        -256
+      ],
+      "id": "29449554-a856-4cfa-af4a-d5d9163520c4",
+      "name": "Response to the petition"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1YmYmOeedRysz-ObHtRjf8w1WrxqqtpbcEWnyaWfLfqE",
+          "mode": "list",
+          "cachedResultName": "dashboard",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1YmYmOeedRysz-ObHtRjf8w1WrxqqtpbcEWnyaWfLfqE/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Hoja 1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1YmYmOeedRysz-ObHtRjf8w1WrxqqtpbcEWnyaWfLfqE/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "email": "={{ $json.body.email }}",
+            "mensaje": "={{ $json.body.mensaje }}",
+            "fecha": "={{ $json.body.fecha }}",
+            "nombre": "={{ $json.body.nombre }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "nombre",
+              "displayName": "nombre",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "email",
+              "displayName": "email",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "mensaje",
+              "displayName": "mensaje",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "fecha",
+              "displayName": "fecha",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Intencion",
+              "displayName": "Intencion",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.6,
+      "position": [
+        480,
+        -16
+      ],
+      "id": "253c32af-02cf-4d02-a8e8-ecd76fa5629e",
+      "name": "Data update",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "ZweRsgglefYs7hQL",
+          "name": "Google Sheets"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Filter": {
+      "main": [
+        [
+          {
+            "node": "Data update",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Incoming information": {
+      "main": [
+        [
+          {
+            "node": "Filter",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Information delivered": {
+      "main": [
+        [
+          {
+            "node": "Read the information",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read the information": {
+      "main": [
+        [
+          {
+            "node": "Response to the petition",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Data update": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "27c5fa3b-56f9-46bc-a29b-2c655ddeebef",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "a6f86e6b1a7c21ce4c2fc1183b54d89c82854030e511e1baeed1b0c053cc45f3"
+  },
+  "id": "8FpFbJdXNzXFSDs5",
+  "tags": []
+}
