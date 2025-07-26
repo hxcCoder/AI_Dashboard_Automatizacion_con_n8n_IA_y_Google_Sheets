@@ -1,2 +1,3 @@
-# AI-Dashboard-Automatizaci-n-con-n8n-IA-y-Google-Sheets
-Este proyecto es un sistema completo de captura, almacenamiento y respuesta automatizada de formularios web, diseñado para negocios, atención al cliente o proyectos SaaS. Conecta un formulario moderno con un flujo inteligente de automatización usando **N8N**, **Google Sheets**  y  **IA (ChatGPT)** .
+Automatiza completamente la recolección, almacenamiento, respuesta y visualización de datos desde formularios web utilizando [n8n](https://n8n.io/), Google Sheets y OpenAI.
+
+Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención al cliente inteligente, y negocios que buscan una solución económica pero poderosa sin pagar plataformas externas.
