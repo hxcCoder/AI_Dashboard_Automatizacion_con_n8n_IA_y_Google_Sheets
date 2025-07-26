@@ -4,7 +4,6 @@ Automatiza completamente la recolección, almacenamiento, respuesta y visualizac
 Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención al cliente inteligente, y negocios que buscan una solución económica pero poderosa sin pagar plataformas externas.
 
 ---
-
 ## 🌟 Funcionalidades principales
 
 -✅ Formulario web moderno y adaptable (HTML/CSS/JS)  
@@ -15,7 +14,6 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 -✅ Totalmente personalizable y reutilizable para múltiples clientes
 
 ---
-
 ## 🧩 Tecnologías utilizadas
 
 - HTML5 + CSS3 + JavaScript
@@ -38,6 +36,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 
 ---
 🎯 Casos de uso
+
 ---
 - Atención al cliente con IA
 
@@ -49,14 +48,30 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 
 - Reportes centralizados con dashboard en tiempo real
 ---
-
 🖥️ Demo y vista previa
+
  -
 ![captura_flujo](https://github.com/user-attachments/assets/c167be37-21c1-4038-aceb-af18a1d8470a)
 
 
 ---
+📈 Escalabilidad
+
+---
+Este proyecto puede escalarse fácilmente:
+
+- Soporte para múltiples formularios
+
+- Base de datos en lugar de Sheets
+
+- Autenticación de usuarios
+
+- Panel admin con edición y filtrado
+
+Deploy en servidores reales o Vercel
+---
 Nota sobre CORS y desarrollo local
+
 ---
 Por defecto, n8n no permite peticiones desde orígenes distintos (como 127.0.0.1:5500).
 
