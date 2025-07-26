@@ -28,7 +28,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 
 ---
 ## 📌 ¿Cómo funciona?
----
+
 1. 🧾 El usuario completa el formulario (`index.html`).
 2. 🔗 Se envían los datos al Webhook POST de n8n.
 3. 📄 n8n guarda los datos automáticamente en Google Sheets.
