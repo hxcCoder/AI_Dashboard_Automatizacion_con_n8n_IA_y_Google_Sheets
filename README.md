@@ -27,9 +27,8 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 - Docker (para desarrollo local con n8n)
 
 ---
-
 ## 📌 ¿Cómo funciona?
-
+---
 1. 🧾 El usuario completa el formulario (`index.html`).
 2. 🔗 Se envían los datos al Webhook POST de n8n.
 3. 📄 n8n guarda los datos automáticamente en Google Sheets.
@@ -38,6 +37,18 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 6. 📊 Desde el `dashboard.html`, se hace un `GET` a otro webhook de n8n que **lee** los datos desde Sheets y los muestra visualmente.
 
 ---
+🎯 Casos de uso
+---
+- Atención al cliente con IA
+
+- Recepción de solicitudes o reclamos
+
+- Formularios inteligentes para servicios
+
+- Captura de leads con IA y seguimiento
+
+- Reportes centralizados con dashboard en tiempo real
+
 
 ## 🖥️ Demo y vista previa
 
