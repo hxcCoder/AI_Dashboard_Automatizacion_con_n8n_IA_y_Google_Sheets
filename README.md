@@ -20,7 +20,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 
 ---
 🖥️ Demo y vista previa
-
+-
 ![captura_flujo](https://github.com/user-attachments/assets/c167be37-21c1-4038-aceb-af18a1d8470a)
 
 ---
