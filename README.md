@@ -21,7 +21,8 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 ---
 🖥️ Demo y vista previa
 -
-![captura_flujo](https://github.com/user-attachments/assets/c167be37-21c1-4038-aceb-af18a1d8470a)
+![Flujo](https://github.com/user-attachments/assets/06cb88f9-4b1f-4d7c-8317-4d771363ba04)
+
 
 ---
 ## 🧩 Tecnologías utilizadas
