@@ -101,11 +101,11 @@ Deploy en servidores reales o Vercel
 
 ¿Necesitas una solución personalizada o deseas contratar una integración similar?
 
-- 📩 benjaminmillalonc@gmail.com
+- 📩  Correo[benjaminmillalonc@gmail.com]
 
-- 🌐 LinkedIn
+- 🌐  LinkedIn [www.linkedin.com/in/benjamin-millalonco]
   
-- 🐙 GitHub
+- 🐙  GitHub [https://github.com/hxcCoder]
 
 ---
 Nota sobre CORS  y  desarrollo local
