@@ -84,6 +84,7 @@ Este proyecto puede escalarse fácilmente:
 - Panel admin con edición y filtrado
 
 Deploy en servidores reales o Vercel
+
 ---
 🙌 Contáctame
 -
