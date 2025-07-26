@@ -37,8 +37,6 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
   
 - Webhooks (GET y POST)
   
-- OpenAI (opcional para respuesta automática)
-  
 - Email o Telegram (notificación)
   
 - Docker (para desarrollo local con n8n)
