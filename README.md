@@ -6,6 +6,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 ---
 ## 🌟 Funcionalidades principales
 
+
 -✅ Formulario web moderno y adaptable (HTML/CSS/JS)
 
 -✅ Almacena datos automáticamente en Google Sheets u otras plataformas (Configurable)
@@ -31,6 +32,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 ---
 ## 🧩 Tecnologías utilizadas
 
+
 - HTML5 + CSS3 + JavaScript
   
 - [n8n](https://n8n.io/) (low-code automation)
@@ -48,6 +50,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 ---
 ## 📌 ¿Cómo funciona?
 
+
 1. 🧾 El usuario completa el formulario (`index.html`).
 
 2. 🔗 Se envían los datos al Webhook POST de n8n.
@@ -63,6 +66,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 ---
 🎯 Casos de uso
 -
+
 ---
 - Atención al cliente con IA
 
@@ -76,6 +80,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 ---
 📈 Escalabilidad
 -
+
 ---
 Este proyecto puede escalarse fácilmente:
 
