@@ -25,7 +25,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 🖥️ Demo y vista previa
 -
 
-![Preview](assets/preview.png)
+![Preview](assets/preview.jpg)
 
 
 
