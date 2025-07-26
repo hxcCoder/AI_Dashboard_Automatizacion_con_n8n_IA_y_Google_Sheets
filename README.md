@@ -23,7 +23,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 🖥️ Demo y vista previa
 -
 
-![FlowScript](https://github.com/user-attachments/assets/2fd3832f-3922-4ffc-b3d9-8f7527dc259b)
+![Preview](assets/preview.png)
 
 
 
