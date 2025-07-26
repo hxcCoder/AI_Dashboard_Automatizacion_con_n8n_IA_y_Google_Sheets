@@ -37,8 +37,6 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
   
 - Webhooks (GET y POST)
   
-- Email o Telegram (notificación)
-  
 - Docker (para desarrollo local con n8n)
 
 ---
@@ -51,9 +49,7 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 
 3. 📄 n8n guarda los datos automáticamente en Google Sheets.
 
-4. ✉️ Se notifica por email o Telegram.
-
-5. 📊 Desde el `dashboard.html`, se hace un `GET` a otro webhook de n8n que **lee** los datos desde Sheets y los muestra visualmente.
+4. 📊 Desde el `dashboard.html`, se hace un `GET` a otro webhook de n8n que **lee** los datos desde Sheets y los muestra visualmente.
 
 ---
 🎯 Casos de uso
