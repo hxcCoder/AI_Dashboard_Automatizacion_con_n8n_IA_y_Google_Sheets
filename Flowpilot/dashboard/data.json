@@ -1,0 +1,16 @@
+{
+  "forms": [
+    {
+      "nombre": "Lucía",
+      "mensaje": "¿Cómo optimizo mis redes sociales?",
+      "respuesta": "Te recomiendo programar contenido, usar analíticas y segmentar por audiencia.",
+      "fecha": "2025-07-25"
+    },
+    {
+      "name": "Pedro",
+      "message": "Quiero automatizar correos de bienvenida.",
+      "response": "Puedes usar flujos con IA que generen respuestas personalizadas según el perfil del usuario.",
+      "date": "2025-07-24"
+    }
+  ]
+}
