@@ -40,8 +40,8 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 ---
 
 ## 🖥️ Demo y vista previa
+![Captura1](https://github.com/user-attachments/assets/2d5d07f9-4dac-43ab-9b8b-c0be350e6d2c)
 
-![Captura1](https://github.com/user-attachments/assets/6784055a-2480-4a0b-83ce-e7fe5abc55b7)
 
 ---
 Nota sobre CORS y desarrollo local
