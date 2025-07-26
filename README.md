@@ -4,7 +4,7 @@ Automatiza completamente la recolección, almacenamiento, respuesta y visualizac
 Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención al cliente inteligente, y negocios que buscan una solución económica pero poderosa sin pagar plataformas externas.
 
 ---
-## 🌟 Funcionalidades principales
+    ## 🌟 Funcionalidades principales
 
 -✅ Formulario web moderno y adaptable (HTML/CSS/JS)
 
