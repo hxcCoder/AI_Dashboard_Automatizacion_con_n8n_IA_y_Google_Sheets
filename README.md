@@ -15,10 +15,6 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 
 -✅ Lee registros y los visualiza en un dashboard en tiempo real
 
--✅ Genera respuesta automática usando IA (ChatGPT/GPT-4)
-
--✅ Notificación vía email o Telegram al responsable (Integrable)
-
 -✅ Totalmente personalizable y reutilizable para múltiples clientes
 
 ---
@@ -57,24 +53,19 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 
 3. 📄 n8n guarda los datos automáticamente en Google Sheets.
 
-4. 🧠 Si se configura, se genera una respuesta con IA (GPT).
+4. ✉️ Se notifica por email o Telegram.
 
-5. ✉️ Se notifica por email o Telegram.
-
-6. 📊 Desde el `dashboard.html`, se hace un `GET` a otro webhook de n8n que **lee** los datos desde Sheets y los muestra visualmente.
+5. 📊 Desde el `dashboard.html`, se hace un `GET` a otro webhook de n8n que **lee** los datos desde Sheets y los muestra visualmente.
 
 ---
 🎯 Casos de uso
 -
 
 
-- Atención al cliente con IA
-
 - Recepción de solicitudes o reclamos
 
 - Formularios inteligentes para servicios
 
-- Captura de leads con IA y seguimiento
 
 - Reportes centralizados con dashboard en tiempo real
 ---
