@@ -100,7 +100,7 @@ Deploy en servidores reales o Vercel
 🙌 Contáctame
 -
 
----
+
 ¿Necesitas una solución personalizada o deseas contratar una integración similar?
 
 - 📩 benjaminmillalonc@gmail.com
