@@ -1,3 +1,5 @@
+SmartForm AI Dashboard – Automatización con n8n, IA y Google Sheets
+-
 ---
 Automatiza completamente la recolección, almacenamiento, respuesta y visualización de datos desde formularios web utilizando [n8n](https://n8n.io/), Google Sheets y OpenAI.
 
