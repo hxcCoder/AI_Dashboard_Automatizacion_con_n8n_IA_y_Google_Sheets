@@ -43,7 +43,8 @@ Ideal para proyectos freelance, clientes que quieren ahorrar tiempo, atención a
 
 
 ---
- Nota sobre CORS y desarrollo local
+Nota sobre CORS y desarrollo local
+---
 Por defecto, n8n no permite peticiones desde orígenes distintos (como 127.0.0.1:5500).
 
 🔐 Para producción: esto no será un problema si usas n8n.cloud o tu servidor configurado correctamente con CORS headers habilitados.
@@ -54,4 +55,5 @@ Usar extensiones tipo "Allow CORS" para desarrollo
 
 Habilitar CORS en Docker con la variable:
 N8N_CORS_ALLOW_ORIGIN=* (solo para pruebas locales)
+
 ---
